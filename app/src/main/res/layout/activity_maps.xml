@@ -1,8 +1,47 @@
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:map="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/map"
-    tools:context=".MapsActivity"
-    android:name="com.google.android.gms.maps.SupportMapFragment"/>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment">
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            >
+
+            <Button
+                android:id="@+id/listephoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/listePhoto"
+                android:textColor="@android:color/holo_green_light"
+                android:backgroundTintMode="screen"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="@android:color/transparent"
+                android:layout_alignParentBottom="true"
+                />
+
+            <Button
+                android:id="@+id/prendrephoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prendrePhoto"
+                android:textColor="@android:color/holo_blue_dark"
+                android:backgroundTintMode="screen"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:backgroundTint="@android:color/transparent"
+                />
+
+        </LinearLayout>
+    </fragment>
+
+</LinearLayout>

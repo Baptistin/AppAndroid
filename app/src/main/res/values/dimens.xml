@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin_login">50dp</dimen>
+    <dimen name="activity_horizontal_margin_test">160dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Connexion horizontal input -->
+    <dimen name="activity_horizontal_margin_input">50dp</dimen>
+
+    <!-- Connexion horizontal input -->
+    <dimen name="activity_vertical_margin_button">20dp</dimen>
+
+</resources>

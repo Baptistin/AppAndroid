@@ -1,0 +1,26 @@
+#
+# generated on 2016/06/20 05:47:55
+#
+# --table-start--
+dataClass=baptistin.com.applicationsolo.Photos
+tableName=photos
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=nom
+# --field-end--
+# --field-start--
+fieldName=latitude
+# --field-end--
+# --field-start--
+fieldName=longitude
+# --field-end--
+# --field-start--
+fieldName=commentaire
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

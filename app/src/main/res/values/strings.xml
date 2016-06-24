@@ -1,5 +1,25 @@
 <resources>
-    <string name="app_name">SpacePic</string>
-    <string name="title_activity_maps">SpacePic</string>
-
+    <string name="app_name">ApplicationSolo</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign">Se connecter</string>
+    <string name="action_sign_up">S\'inscrire</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prenom</string>
+    <string name="adresse">Adresse</string>
+    <string name="login">Login</string>
+    <string name="altimg">altimg</string>
+    <string name="retour">retour</string>
+    <string name="deconnexion">deconnexion</string>
+    <string name="photo">Photo</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        	AIzaSyBLEe3TsE6GtE3rnN4G6R4BejLnhhAoFpI
+    </string>
+    <string name="google_play_services_version">6587000</string>
+    <string name="ajoutphotobutton">Retour Informations</string>
+    <string name="prendrePhoto">Prendre une Photo</string>
+    <string name="listePhoto">Galerie</string>
+    <string name="nomphoto">Nom de la photo</string>
+    <string name="commentaire">Commentaire</string>
 </resources>

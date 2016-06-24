@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/flatColor"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".InscriptionValideActivity">
+
+    <LinearLayout
+        android:id="@+id/home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Mon email:"/>
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Mon nom:"/>
+
+            <TextView
+                android:id="@+id/nom"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Mon prenom:"/>
+
+            <TextView
+                android:id="@+id/prenom"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Mon adresse:"/>
+
+            <TextView
+                android:id="@+id/adresse"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/mdpmodify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modifier MDP"
+                android:textColor="@android:color/holo_blue_dark"
+                android:backgroundTintMode="screen"
+                android:backgroundTint="@android:color/transparent"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/validation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GoogleMap"
+                android:textColor="@android:color/holo_blue_dark"
+                android:backgroundTintMode="screen"
+                android:backgroundTint="@android:color/transparent"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/deconnexion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deconnexion"
+                android:textColor="@android:color/holo_blue_dark"
+                android:backgroundTintMode="screen"
+                android:backgroundTint="@android:color/transparent"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/password1"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Nouveau mot de passe :"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:visibility="invisible"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/password123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valider"
+                android:visibility="invisible"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
